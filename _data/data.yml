@@ -1,0 +1,126 @@
+name: Andrei Martianov
+name-in-cyrillic: Андрей Мартьянов
+preferences:
+  interested-to-work-remotely: yes
+  interested-to-work-in-office: no
+  interested-to-work-in-hybrid-office-and-remote: no
+  interested-to-work-as-private-contractor: yes
+  interested-to-work-as-individual-enterpreneur: yes
+  interested-to-work-fulltime: yes
+  interested-to-work-parttime: yes
+  agree-to-solve-test-task: disagree
+  willing-to-relocate: no
+  can-relocate: possibly
+  agree-to-work-from-russia-territory: no
+  agree-to-work-outside-of-russia-territory: yes
+  desired-salary: 2000 USD
+  available-for-business-trips: yes
+  applicant-timezone: UTC-3
+  applicant-location: Argentina, Buenos Aires
+
+contact:
+  github:
+  telegram: andrei_martianov
+  linkedin: andrei-martianov
+  email: martianov.andrei9000@gmail.com
+  phone:
+  online: "https://cv.an-mart.com/"
+  calendar: "https://calendly.com/martianov-andrei"
+  print: Print this page
+
+hardskills:
+  skill:
+    - Linux, CI/CD, Gitlab, Ansible, VMware, Proxmox, Hyper-V, TeamCity, Octopus Deploy
+    - C# and Unity3D (VR, Android, iOS), .NET, SQL, ASP.NET
+    - Docker, infrastructure, Kubernetes, Prometheus, Grafana, Zabbix
+    - Python, blockchain, GoLang, Java, PHP
+    - JavaScript, Typescript, HTML, CSS, Blazor, React, MAUI (Xamarin)
+    - LLM, RAG, N8N, Agents
+    - Claude Code, MCP, Gemini CLI, Ollama, OpenCode, VsCode Continue, Cline
+
+softskills:
+  skill:
+    - Keep calm and carry on
+    - Always learn and share knowledge. Cannot ignore a good question
+    - Cat-like curiosity. New framework? Let's go!
+    - Teamplayer or self-directed solo, depending on the situation
+    - Translator between tech and business people. Building bridges between worlds
+    - Asynchronous communication advocate
+    - Believe it or not, I like refactoring
+
+languages:
+  - idiom: English - C2
+  - idiom: Spanish - B2
+  - idiom: Russian - Native
+
+education:
+  - degree: Certificate in RobotStudio
+    time: 2020
+    university: ABB industrial robots IDE
+
+  - degree: Bachelor's degree in Informatics in metrology and quality management
+    time: 2003-2008
+    university: Moscow State Technological University of Heavy Machines and Tools Stankin
+
+bio: |
+  Software Engineer with 20 years in IT. Fully remote, based in Buenos Aires (UTC-3). Open to contract and full-time engagements outside Russia. Core stack: C#, .NET, DevOps (Docker, Kubernetes, CI/CD), Unity3D, LLM and AI tooling. Hands-on background across system administration, game development, ETL pipelines, and infrastructure automation: 3 years DevOps, 5 years C# development, 4 years project management, 8 years system administration.
+
+experience:
+  - role: DevOps
+    time: 2023-2025
+    company: NDA organization
+    details: R&D, AI, Blockchain and all sorts of Rock and Roll.
+
+  - role: C# Developer, DevOps, PM
+    time: 2021-now
+    company: hoopsly (hypercasual games publisher)
+    details-list:
+      - Created and operated a mission-critical daily tool for a team of 50 producers and analysts.
+      - Designed and built automation for the daily ETL (Extract-Transform-Load) process based on analytics team specifications.
+      - "Developed solo from scratch a C# console app importing analytics data from multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer, Facebook Ads into BigQuery and S3 buckets at GCP."
+      - Added Google Spreadsheet integration as a control interface for on-demand custom imports, accessible to non-technical users.
+      - Built app logging and server usage monitoring.
+      - Configured deploy and CI/CD on a Digital Ocean Droplet running a dockerized app.
+      - Visualised performance metrics in Data Studio, wrote documentation, set up logging with Serilog, Seq and OpenTelemetry.
+      - "Web stack experience: Blazor, ASP.NET, JavaScript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman."
+
+  - role: C# Developer, Unity3D Developer, Gamedesigner
+    time: 2019-2021
+    company: 3dru (3d-printed hardware, VR and mobile prototypes)
+    details-list:
+      - "Unity components: Unity Analytics, Unity Ads, Unity IAP, Profiler, Scriptable Objects"
+      - "Version control: Git CLI, Git LFS, GitKraken, Sourcetree"
+      - "Animation: Unity Animator + DOTween, Animation Rigging, Timeline + Cinemachine"
+      - "Multiplayer: Photon Unity Networking"
+      - "Editor tooling: OpenUPM, Odin Inspector, Custom editors"
+      - "Level design: Archimatix, ProBuilder, ProGrid"
+      - "AI: Behaviour Tree Designer, FSM (Finite State Machines)"
+      - "External tools: Azure Computer Vision, Google Play Services, Admob, Android Studio, ADB, Xcode"
+      - "Hardware SDK: SteamVR, OculusVR (Quest, Rift), Raspberry Pi, Microsoft Kinect 2"
+      - "UI and prototyping: TextMeshPro, Modern UI, Pencil, Figma, Axure RP"
+      - "Project management: Jira, Confluence, Trello"
+      - "Self-hosted infrastructure: dockerized Gitlab and Confluence, Zabbix, Netdata, Datadog, Portainer"
+      - "High score backend: dockerized Node.js JSON API (Strapi Headless CMS + MariaDB)"
+      - Backups with Duplicati
+
+  - role: Project manager
+    time: 2016-2018
+    company: msk2048.ru (immersive theater, quest room)
+    details: Making stuff operate smoothly. Optimizing routines. Extinguishing fires.
+
+  - role: Entrepreneur, PM, Gamedesigner, HR, Marketer
+    time: 2014-2016
+    company: claustrophobia.com (quest game, escape room)
+    details: |
+      Built the project from scratch: BizDev, CusDev, game balance, construction, advertising, HR.
+      Won Quest of the Year 2016. Consistent 10 out of 10 ratings from players.
+
+  - role: System administrator, datacenter engineer
+    time: 2011-2014
+    company: netorn.ru (ISP, Datacenter)
+    details: UNIX, Redmine, Zabbix, Cacti, rack grooming, incident response, new hardware installation.
+
+  - role: Tech support, system administrator
+    time: 2005-2011
+    company: cross-t.ru (ISP)
+    details: FreeBSD, Cisco, routing, DNS, DHCP, NAT, Active Directory, SMTP, VPN, VMware, VirtualBox
