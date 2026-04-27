@@ -32,7 +32,7 @@ hardskills:
   skill:
     - Linux, CI/CD, Gitlab, Ansible, VMware, Proxmox, Hyper-V, TeamCity, Octopus Deploy
     - C# and Unity3D (VR, Android, iOS), .NET, SQL, ASP.NET
-    - Docker, infrastructure, Kubernetes, Prometheus, Grafana, Zabbix
+    - Docker, infrastructure, Kubernetes, Prometheus, Grafana, Zabbix, Teleport
     - Python, blockchain, GoLang, Java, PHP
     - JavaScript, Typescript, HTML, CSS, Blazor, React, MAUI (Xamarin)
     - LLM, RAG, N8N, Agents
