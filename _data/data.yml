@@ -1,0 +1,51 @@
+name: Example Applicant
+name-in-cyrillic: Иван Иванов
+
+stopwords:
+  # personal-stopwords: per-user, fully editable via /blacklist.
+  # universal-stopwords: deploy-time baseline copied into the user's CV YAML.
+  # Words formerly here that belonged to the four DNA-level groups
+  # (Госсектор, Преподаватели, Спам, Доставка) have been moved out — they
+  # are now enforced platform-wide via stopword_groups.is_absolute = TRUE
+  # and applied independently of any user YAML or env var. See
+  # docs/company-values.md and docs/stopword-filtering.md. What remains
+  # below is the unpaid-work / starter-only baseline, which IS user-visible
+  # and user-removable.
+  personal-stopwords: []
+  universal-stopwords: ["intern", "revenue share", "unpaid", "equity only", "за процент", "доля от прибыли", "доля от выручки", "процент с продаж", "интерн", "сотрудничество", "стажер", "стажёр"]
+
+hardskills:
+  skill:
+    - Python, Go, TypeScript
+    - Docker, Kubernetes, Terraform, Ansible
+    - PostgreSQL, Redis
+    - AWS, GCP
+    - Git, REST APIs, CI/CD
+
+softskills:
+  skill:
+    - Системное мышление и аналитический подход
+    - Автономность в условиях неопределённости
+    - Кросс-командное взаимодействие
+
+languages:
+  - idiom: Russian - Native
+  - idiom: English - B2 (CEFR)
+
+bio: |
+  Short professional bio. Overwritten by the enricher for each client.
+
+experience:
+  - role: Senior Engineer
+    time: 2023 – Present
+    company: Example Corp
+    details:
+    details-list:
+      - Key achievement #1 with concrete impact.
+      - Key achievement #2 with concrete impact.
+      - Technologies used.
+
+contact:
+  telegram: ''
+  email: ''
+  phone: ''
